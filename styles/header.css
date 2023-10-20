@@ -1,0 +1,33 @@
+.header {
+    height: 55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 16px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.netflix-logo {
+    height: 24px;
+    margin-left: 10px;
+}
+
+.profile-image {
+    height: 30px;
+    margin-right: 16px;
+}
